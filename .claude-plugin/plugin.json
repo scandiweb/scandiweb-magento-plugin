@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "scandiweb-magento",
+  "displayName": "Scandiweb Magento",
+  "version": "0.3.0",
+  "description": "Connect Claude to your own Magento 2 store and manage products, prices, stock, categories, CMS pages and blocks, media, and navigation through the Scandiweb Magento MCP modules.",
+  "author": {
+    "name": "Scandiweb",
+    "email": "info@scandiweb.com",
+    "url": "https://scandiweb.com"
+  },
+  "homepage": "https://github.com/scandiweb/scandiweb-magento2-mcp",
+  "repository": "https://github.com/scandiweb/scandiweb-magento2-mcp",
+  "license": "OSL-3.0",
+  "keywords": ["magento", "magento2", "adobe-commerce", "ecommerce", "cms", "catalog", "hyva", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/scandiweb/scandiweb-magento2-mcp#readme",
+  "supportUrl": "https://github.com/scandiweb/scandiweb-magento2-mcp/blob/master/SUPPORT.md",
+  "privacyPolicyUrl": "https://github.com/scandiweb/scandiweb-magento2-mcp/blob/master/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/scandiweb/scandiweb-magento2-mcp/blob/master/TERMS.md",
+  "userConfig": {
+    "store_mcp_url": {
+      "type": "string",
+      "title": "Magento MCP endpoint",
+      "description": "Full HTTPS address of your own store's MCP endpoint, normally https://your-store.com/mcp. The Scandiweb Magento MCP modules must already be installed on the store.",
+      "required": true
+    }
+  }
+}
