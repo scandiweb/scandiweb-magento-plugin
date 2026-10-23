@@ -33,7 +33,8 @@ plugin.
 - **Claude Code:**
 
 ```
-/plugin install scandiweb-magento --marketplace scandiweb/scandiweb-magento-plugin
+/plugin marketplace add scandiweb/scandiweb-magento-plugin
+/plugin install scandiweb-magento@scandiweb
 ```
 
 ## Set it up
@@ -48,8 +49,13 @@ After adding the plugin, say "Set up my Magento store connection."
   **Magento MCP endpoint**. Then run `/mcp`, pick `magento`, and choose
   **Authenticate** to sign in through your Magento admin.
 
-Then try: "List the first five products in my store with SKU, name and price"
-or "Show my CMS pages and which store views they are assigned to."
+Then try:
+
+- "List the first five products in my store with SKU, name and price."
+- "Show my CMS pages and which store views they are assigned to."
+- "Which products in the Shoes category have less than 5 in stock?"
+- "Update the meta description of the About Us CMS page, and show me the
+  change before saving it."
 
 ## Data and permissions
 

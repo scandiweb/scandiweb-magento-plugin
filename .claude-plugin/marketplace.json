@@ -1,9 +1,11 @@
 {
   "name": "scandiweb",
-  "description": "Scandiweb plugins for Claude: connect Claude to your Magento 2 store.",
   "owner": {
     "name": "Scandiweb",
     "email": "info@scandiweb.com"
+  },
+  "metadata": {
+    "description": "Scandiweb plugins for Claude: connect Claude to your Magento 2 store."
   },
   "plugins": [
     {
